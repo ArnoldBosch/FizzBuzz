@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 
 namespace FizzBuzzApp
 {
@@ -6,25 +7,17 @@ namespace FizzBuzzApp
     {
         static void Main(string[] args)
         {
-            /*for (int i = 1; i <= 100; i++)
-            {
-                if (i % 3 == 0 && i % 5 == 0)
-                {
-                    Console.WriteLine("FizzBuzz");
-                }
-                else if (i % 3 == 0)
-                {
-                    Console.WriteLine("Fizz");
-                }
-                else if (i % 5 == 0)
-                {
-                    Console.WriteLine("Buzz");
-                }
-                else
-                {
-                    Console.WriteLine(i);
-                }
-            }*/
+            // Could you write a C# console application that implements the FizzBuzz exercise?
+            // The requirements for the program are:
+
+            //*The application should print the numbers from 1 to 100.
+            //*For each number that is a multiple of 3, the application should not print the number but instead print "Fizz".
+            //*For each number that is a multiple of 5, the application should not print the number but instead print "Buzz".
+            //*For numbers which are multiples of both 3 and 5, the application should print "FizzBuzz" instead of the number.
+            //*All other numbers should be printed as they are.
+
+
+            
         }
     }
 }
